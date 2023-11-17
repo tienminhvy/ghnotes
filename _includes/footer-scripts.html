@@ -61,15 +61,32 @@
       ABCJS.renderAbc(abcE, abcString);
       const audioPlayer = document.createElement("div");
       abcE.insertAdjacentElement("afterend", audioPlayer);
-      ABCJS.renderMidi(
-        audioPlayer,
-        abcString,
-        {
-            inlineControls: {
-                loopToggle: true,
-                tempo: true,
-            },
+      if (ABCJS.synth.supportsAudio()) {
+        let controlOptions = {
+            displayRestart: true,
+            displayPlay: true,
+            displayProgress: true,
+            displayClock: true
+        };
+
+        const synthControl = new ABCJS.synth.SynthController();
+        synthControl.load(audioPlayer, null, controlOptions);
+        synthControl.disable(true);
+        const midiBuffer = new ABCJS.synth.CreateSynth();
+        midiBuffer.init({
+            visualObj: visualObj[0],
+            options: {
+                
+            }
+
+        }).then(function () {
+            synthControl.setTune(visualObj[0], true).then(function (response) {
+            document.querySelector(".abcjs-inline-audio").classList.remove("disabled");
+            })
         });
+      } else {
+        // audio not supported
+      }
     })
   });
 </script>
