@@ -52,3 +52,13 @@
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/abcjs@6/dist/abcjs-basic-min.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    let abcCodeBlocks = document.querySelectorAll('.language-abc');
+
+    abcCodeBlocks.forEach(abc => {
+      let abcText = abc.innerText;
+      abcjs.renderAbc(abc, abcText);
+    })
+  });
+</script>
