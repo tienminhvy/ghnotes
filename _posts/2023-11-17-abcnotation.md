@@ -6,6 +6,8 @@ tags: abcnotation
 categories: music
 subtitle: Post này dùng để test abcnotation với markdown
 date: '2023-11-17'
+cover-img: https://i.imgur.com/jprWYRg.jpg
+share-img: https://i.imgur.com/jprWYRg.jpg
 
 comments: true
 ---
@@ -17,6 +19,7 @@ comments: true
 
 
 # Ví dụ cơ bản về abc notation
+
 Sheet nhạc mô phỏng
 - Quãng 8 bé
 ```abc
