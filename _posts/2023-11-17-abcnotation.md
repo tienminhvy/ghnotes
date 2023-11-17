@@ -10,7 +10,6 @@ date: '2023-11-17'
 comments: true
 ---
 
-# Mục lục
 
 <ul>
 <li><a href="#ví-dụ-cơ-bản-về-abc-notation">Ví dụ cơ bản về abc notation</a></li>
