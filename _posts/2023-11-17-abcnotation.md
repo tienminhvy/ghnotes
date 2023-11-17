@@ -17,6 +17,44 @@ comments: true
 
 
 # Ví dụ cơ bản về abc notation
+Sheet nhạc mô phỏng
+- Quãng 8 bé
+```abc
+X:1
+T:Quãng tám bé
+M:C
+L:1/4
+K:C treble
+C, D, E, F, | G, A, B, z |]
+```
+- Quãng 8 thứ nhất (bắt đầu từ đô/Do/C 4)
+```abc
+X:2
+T:Quãng tám thứ nhất
+M:C
+L:1/4
+K:C treble
+C D E F | G A B z |]
+```
+- Quãng 8 thứ hai
+```abc
+X:3
+T:Quãng tám thứ hai
+M:C
+L:1/4
+K:C treble
+c d e f | g a b z |]
+```
+- Quãng 8 thứ ba
+```abc
+X:4
+T:Quãng tám thứ ba
+M:C
+L:1/4
+K:C treble
+c' d' e' f' | g' a' b' z |]
+```
+Dưới đây là đoạn sheet mẫu, gồm 4 quãng 8 trên:
 ```abc
 X:1
 T:Notes / pitches
