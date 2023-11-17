@@ -4,7 +4,7 @@ title: Test abcnotation
 author: Vy Tien
 tags: abcnotation
 categories: music
-excerpt: Post này dùng để test abcnotation với markdown
+subtitle: Post này dùng để test abcnotation với markdown
 date: '2023-11-17'
 
 comments: true
