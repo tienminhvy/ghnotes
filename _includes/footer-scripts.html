@@ -58,9 +58,11 @@
 
     abcCodeBlocks.forEach(abcE => {
       const abcString = abcE.innerText;
-      ABCJS.renderAbc(abcE, abcString);
+      const musicSheet = document.createElement("div");
+      const visualObj = ABCJS.renderAbc(musicSheet, abcString);
       const audioPlayer = document.createElement("div");
-      abcE.insertAdjacentElement("afterend", audioPlayer);
+      abcE.insertAdjacentElement("afterend", musicSheet);
+      musicSheet.insertAdjacentElement("afterend", audioPlayer);
       if (ABCJS.synth.supportsAudio()) {
         let controlOptions = {
             displayRestart: true,
@@ -81,12 +83,13 @@
 
         }).then(function () {
             synthControl.setTune(visualObj[0], true).then(function (response) {
-            document.querySelector(".abcjs-inline-audio").classList.remove("disabled");
+            audioPlayer.querySelector(".abcjs-inline-audio").classList.remove("disabled");
             })
         });
       } else {
         // audio not supported
       }
+      abcE.remove();
     })
   });
 </script>
