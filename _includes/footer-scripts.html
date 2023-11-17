@@ -36,3 +36,17 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    mermaid.initialize({
+      startOnLoad:true,
+      theme: "default",
+      themeVariables: {
+        fontFamily: "Consolas",
+      }
+    });
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  });
+</script>
