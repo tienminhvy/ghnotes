@@ -59,6 +59,7 @@
     abcCodeBlocks.forEach(abcE => {
       const abcString = abcE.innerText;
       const musicSheet = document.createElement("div");
+      musicSheet.style.overflow = "visible";
       const visualObj = ABCJS.renderAbc(musicSheet, abcString);
       const audioPlayer = document.createElement("div");
       abcE.parentElement.insertAdjacentElement("afterend", musicSheet);
