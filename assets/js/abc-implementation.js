@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     console.log(self.rootSelector);
       self.onStart = function() {
+        console.log(self.rootSelector);
           // This is called when the timer starts so we know the svg has been drawn by now.
           // Create the cursor and add it to the sheet music's svg.
           var svg = self.rootSelector.querySelector("svg");
