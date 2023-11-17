@@ -8,7 +8,6 @@ excerpt: Post này dùng để test abcnotation với markdown
 date: '2023-11-17'
 
 comments: true
-excerpt: 
 ---
 
 # Mục lục
