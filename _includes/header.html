@@ -32,14 +32,6 @@
               <h2 class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</h2>
             {% endif %}
           {% endif %}
-          {% if page.excerpt %}
-            {% if include.type == "page" %}
-              <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.excerpt | strip_html }}</span>
-            {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.excerpt | strip_html }}</h2>
-            {% endif %}
-          {% endif %}
           
           {% if include.type == "post" %} 
             {% if page.author %}
