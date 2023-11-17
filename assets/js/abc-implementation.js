@@ -44,12 +44,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
   function CursorControl(rootSelector) {
     var self = this;
 
+    console.log(self);
+
   // This demonstrates two methods of indicating where the music is.
       // 1) An element is created that is moved along for each note.
       // 2) The currently being played note is given a class so that it can be transformed.
       self.cursor = null; // This is the svg element that will move with the music.
       self.rootSelector = rootSelector; // This is the same selector as the renderAbc call uses.
-  
+
+    console.log(self.rootSelector);
       self.onStart = function() {
           // This is called when the timer starts so we know the svg has been drawn by now.
           // Create the cursor and add it to the sheet music's svg.
