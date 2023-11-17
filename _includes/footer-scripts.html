@@ -61,7 +61,7 @@
       const musicSheet = document.createElement("div");
       const visualObj = ABCJS.renderAbc(musicSheet, abcString);
       const audioPlayer = document.createElement("div");
-      abcE.insertAdjacentElement("afterend", musicSheet);
+      abcE.parentElement.insertAdjacentElement("afterend", musicSheet);
       musicSheet.insertAdjacentElement("afterend", audioPlayer);
       if (ABCJS.synth.supportsAudio()) {
         let controlOptions = {
