@@ -56,9 +56,20 @@
   document.addEventListener("DOMContentLoaded", (event) => {
     let abcCodeBlocks = document.querySelectorAll('.language-abc');
 
-    abcCodeBlocks.forEach(abc => {
-      let abcText = abc.innerText;
-      ABCJS.renderAbc(abc, abcText);
+    abcCodeBlocks.forEach(abcE => {
+      const abcString = abcE.innerText;
+      ABCJS.renderAbc(abcE, abcString);
+      const audioPlayer = document.createElement("div");
+      abcE.insertAdjacentElement("afterend", audioPlayer);
+      ABCJS.renderMidi(
+        audioPlayer,
+        abcString,
+        {
+            inlineControls: {
+                loopToggle: true,
+                tempo: true,
+            },
+        });
     })
   });
 </script>
