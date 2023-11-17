@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       };
 
       const synthControl = new ABCJS.synth.SynthController();
-      synthControl.load(audioPlayer, null, controlOptions);
+      synthControl.load(audioPlayer, CursorControl, controlOptions);
       synthControl.disable(true);
       const midiBuffer = new ABCJS.synth.CreateSynth();
       midiBuffer.init({
