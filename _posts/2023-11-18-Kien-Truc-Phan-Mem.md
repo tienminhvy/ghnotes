@@ -9,7 +9,7 @@ comments: true
 <ul>
 <li><a href="#kiến-trúc-phần-mềm">Kiến trúc phần mềm</a>
 <ul>
-<li><a href="#row">Row</a></li>
+<li><a href="#raw">Raw</a></li>
 <li><a href="#dịch">Dịch</a></li>
 </ul>
 </li>
@@ -18,7 +18,7 @@ comments: true
 
 # Kiến trúc phần mềm
 
-## Row
+## Raw
 
 Here is a draft introduction to the software architecture for your coffee house management project:
 
