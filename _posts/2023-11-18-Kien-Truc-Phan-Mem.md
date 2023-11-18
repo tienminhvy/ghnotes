@@ -44,5 +44,7 @@ In summary, implementing a coffee management system using MVC architecture and L
 
 ## Dịch
 
+...
+
 > Written with AI
 
