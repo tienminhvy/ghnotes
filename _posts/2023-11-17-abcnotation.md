@@ -68,7 +68,7 @@ c' d' e' f' | g' a' b' z |]
 ## Tổng hợp
 Dưới đây là đoạn sheet mẫu, gồm 4 quãng 8 trên:
 ```abc
-X:1
+X:5
 T:Notes / pitches
 M:C
 L:1/4
@@ -78,7 +78,7 @@ C, D, E, F, | G, A, B, C | D E  F G | A B c d | e f g a | b c' d' e' | f' g' a' 
 Đoạn code mẫu để render ra mớ trên
 ~~~
 ```abc
-X:1
+X:5
 T:Notes / pitches
 M:C
 L:1/4
