@@ -1,6 +1,11 @@
 ---
 layout: post
-
+title: Kiến trúc phần mềm
+author: Vy Tien
+tags: cnpm
+categories: sgu
+excerpt: Kiến trúc phần mềm
+date: '2023-11-18'
 
 comments: true
 ---
