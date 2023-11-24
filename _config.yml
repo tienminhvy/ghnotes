@@ -189,7 +189,7 @@ footer-hover-col: "#0085A1"
 ####################
 
 # To use Graphcomment, sign up for a Graphcomment site on https://graphcomment.com
-commentbox: "ghnotes" # WEBID, e.g. "yourid"
+graphcomment: "ghnotes" # WEBID, e.g. "yourid"
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: ""
