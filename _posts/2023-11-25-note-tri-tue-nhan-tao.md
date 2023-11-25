@@ -32,5 +32,9 @@ p1<-->p2
 p1<-->p3
 ```
 Đề tài nghiên cứu
-2011: IBM Question-answering
+2011: IBM Question-answering <=> Jeoparody (U.S.)
+Giá trị 6 tỷ USD 
+![Hệ thống question-answering](https://static01.nyt.com/images/2010/06/20/magazine/20Computer-span/20Computer-span-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale)
+
+Vẫn là hệ thống thông minh giả
 
