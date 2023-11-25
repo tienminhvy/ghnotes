@@ -103,3 +103,5 @@ b. Áp dụng cho mẫu x, y, z
 Tập luật
 ![enter image description here](https://i.imgur.com/GCptATQ.jpg)
 
+Từ tập luật ⇒ Xác định được kết quả.
+
