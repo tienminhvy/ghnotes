@@ -98,3 +98,5 @@ Chọn thuộc tính tốt (Càng nhiều vector đơn vị càng tốt)
 *CSDL ⇒ Bảng
 ![enter image description here](https://i.imgur.com/iDr05CE.jpg)
 
+![enter image description here](https://i.imgur.com/UVhd1dB.jpg)
+
