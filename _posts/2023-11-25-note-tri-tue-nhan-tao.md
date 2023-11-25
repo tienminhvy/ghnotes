@@ -41,7 +41,7 @@ Vẫn là hệ thống thông minh giả
 ```mermaid
 flowchart LR
 p1["A.I."]
-p2["NLP"]
+p2["NLP (Natural language processing)"]
 p3["Machine learning"]
 p1-->p2
 p1-->p3
