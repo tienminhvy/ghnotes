@@ -73,3 +73,17 @@ p4-->p3
 p3-->p5
 ```
 
+Thuật toán Quinlan (John Ross Quinlan) năm 1979
+
+Đưa vào trainning data dạng bảng
+
+| Mẫu | Thời tiết | Lá cây | Nhiệt độ | Quyết định (mùa) |
+|--|--|--|--|--|
+| 1 | Mưa | Rụng | Thấp | Đông |
+| 2 | Nắng | Xanh | Trung bình | Xuân |
+| 3 - 12 | ... |
+|x,y,z | Mưa | Vàng | Cao | ? |
+
+a. Từ mẫu 1 - 12, rút ra bộ luật quyết định mùa theo thuật toán Quinlan
+b. Áp dụng cho mẫu x, y, z
+
