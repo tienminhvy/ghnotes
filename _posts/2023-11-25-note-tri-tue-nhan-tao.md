@@ -84,6 +84,10 @@ Thuật toán Quinlan (John Ross Quinlan) năm 1979
 | 3 - 12 | ... |
 |x,y,z | Mưa | Vàng | Cao | ? |
 
+![enter image description here](https://i.imgur.com/hXgaz3u.jpg)
+
 a. Từ mẫu 1 - 12, rút ra bộ luật quyết định mùa theo thuật toán Quinlan
 b. Áp dụng cho mẫu x, y, z
+
+![enter image description here](https://i.imgur.com/2XRcmV7.jpg)
 
