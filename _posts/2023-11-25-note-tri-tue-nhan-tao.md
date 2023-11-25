@@ -106,3 +106,5 @@ Tập luật
 
 Từ tập luật ⇒ Xác định được kết quả.
 
+[Slide tài liệu học tập](https://drive.google.com/file/d/17ay5Cy3dzw2U_cm9T48AnsvSBgpnPhdZ/view?fbclid=IwAR1XOe3Cd8jnFj3PxJZsuZXLF61_3iEK6Y-eBQsXlOE9yDe1vxet-AbRcAg)
+
