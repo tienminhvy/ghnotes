@@ -38,3 +38,38 @@ Giá trị 6 tỷ USD
 
 Vẫn là hệ thống thông minh giả
 
+```mermaid
+flowchart LR
+p1["A.I."]
+p2["NLP"]
+p3["Machine learning"]
+p1-->p2
+p1-->p3
+```
+Flow trí tuệ nhân tạo
+```mermaid
+flowchart TD
+p1["Training Data"]
+p2["ML Model (Learning.Statistical)"]
+p3["Result (Functions/rules) để giải quyết bài toán mới"]
+p4["(New) Data"]
+p5["Result"]
+p1-->p2-->p3
+p4-->p3
+p3-->p5
+```
+
+Cây quyết định, đầu vào là bảng dữ liệu, kết quả là cây quyết định, rút ra được kết luận.
+
+```mermaid
+flowchart TD
+p1["Training Data"]
+p2["Learning (Decision tree model)"]
+p3["Result (Decision tree)"]
+p4["(New) Data"]
+p5["Classification (1/0)"]
+p1-->p2-->p3
+p4-->p3
+p3-->p5
+```
+
