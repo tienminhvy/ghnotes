@@ -91,3 +91,10 @@ b. Áp dụng cho mẫu x, y, z
 
 ![enter image description here](https://i.imgur.com/2XRcmV7.jpg)
 
+![enter image description here](https://i.imgur.com/pwCg8Jn.jpg)
+
+Chọn thuộc tính tốt (Càng nhiều vector đơn vị càng tốt)
+
+*CSDL ⇒ Bảng
+![enter image description here](https://i.imgur.com/iDr05CE.jpg)
+
