@@ -15,6 +15,11 @@ comments: true
 <ul>
 <li><a href="#nội-dung">Nội dung</a></li>
 <li><a href="#thuật-toán-quinlan-john-ross-quinlan-năm-1979">Thuật toán Quinlan (John Ross Quinlan) năm 1979</a></li>
+<li><a href="#bài-tập-1">Bài tập 1</a>
+<ul>
+<li><a href="#đổi-sang-bảng-dữ-liệu-theo-tiêu-chí">Đổi sang bảng dữ liệu theo tiêu chí</a></li>
+</ul>
+</li>
 </ul>
 
 
@@ -107,4 +112,49 @@ Tập luật
 Từ tập luật ⇒ Xác định được kết quả.
 
 [Slide tài liệu học tập](https://drive.google.com/file/d/17ay5Cy3dzw2U_cm9T48AnsvSBgpnPhdZ/view?fbclid=IwAR1XOe3Cd8jnFj3PxJZsuZXLF61_3iEK6Y-eBQsXlOE9yDe1vxet-AbRcAg)
+
+# Bài tập 1
+
+![enter image description here](https://i.imgur.com/ohGJ4Ht.png)
+
+1. Hãy rút ra kết luận từ cây quyết định được xây dựng.
+2. Dùng các luật rút ra từ cây quyết định để phân loại dữ liệu sau
+	a. (33, 70, 18, 1)
+	b. (25, 65, 10, 0)
+	c. (35, 60, 15, 1)	
+
+## Đổi sang bảng dữ liệu theo tiêu chí
+Nhiệt độ: 
+- 15 - 19 (mát)
+- 20 - 24 (bình thường - BT)
+- 25 - 29 (nóng)
+- 30 - ... (rất nóng)
+
+Độ ẩm
+- 60 - 69 : thấp
+- 70 - 79 : trung bình (TB)
+- 80 - 89 : cao
+- 90 - ... : rất cao
+
+Gió
+- 1 - 4 : thấp
+- 5 - 9 : trung bình (TB)
+- 10 - 14 : cao
+- 15 : rất cao
+
+| Nhiệt độ | Độ ẩm (%) | Gió (km/h) | Nắng | Mang ô dù |
+|--|--|--|--|--|
+| Nóng | Cao | Cao | Có | Có |
+| Cao | Thấp | Cao | Không | Không |
+| BT | TB | TB | Có | Có |
+| Mát | Cao | TB | Không | Có |
+| Nóng | Thấp | Cao | Có | Không |
+| BT | TB | TB | Không | Có |
+| Nóng | Cao | TB | Có | Không |
+| BT | Thấp | Thấp | Không | Có |
+
+B0: Gọi vector độ đo v = {Có, Không}
+B1: Tính vector độ đo của các thuộc tính ở cơ sở dữ liệu ban đầu.
+Thuộc tính **Nhiệt độ**
+Nóng: v= {1/3, 2/3}
 
