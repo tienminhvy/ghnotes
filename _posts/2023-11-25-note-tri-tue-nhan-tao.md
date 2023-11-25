@@ -93,7 +93,7 @@ b. Áp dụng cho mẫu x, y, z
 
 ![enter image description here](https://i.imgur.com/pwCg8Jn.jpg)
 
-**Chọn thuộc tính tốt (Càng nhiều vector đơn vị càng tốt)**
+**Chọn thuộc tính tốt (Càng nhiều vector đơn vị càng tốt), nếu bằng nhau thì lấy ngẫu nhiên**
 
 *CSDL ⇒ Bảng
 ![enter image description here](https://i.imgur.com/iDr05CE.jpg)
