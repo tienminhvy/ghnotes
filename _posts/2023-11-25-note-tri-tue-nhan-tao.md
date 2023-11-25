@@ -14,6 +14,7 @@ comments: true
 
 <ul>
 <li><a href="#nội-dung">Nội dung</a></li>
+<li><a href="#thuật-toán-quinlan-john-ross-quinlan-năm-1979">Thuật toán Quinlan (John Ross Quinlan) năm 1979</a></li>
 </ul>
 
 
@@ -73,7 +74,7 @@ p4-->p3
 p3-->p5
 ```
 
-Thuật toán Quinlan (John Ross Quinlan) năm 1979
+# Thuật toán Quinlan (John Ross Quinlan) năm 1979
 
 Đưa vào trainning data dạng bảng
 
